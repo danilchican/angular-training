@@ -4,20 +4,22 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
-import { CoursesComponent } from './courses/courses.component';
 import { BreadcrumbsComponent } from './breadcrumbs/breadcrumbs.component';
-import { SectionComponent } from './section/section.component';
-import { CourseItemComponent } from './course-item/course-item.component';
+import { SearchComponent } from './section/search/search.component';
+import { AddCourseComponent } from './section/add-course/add-course.component';
+import { CoursesListComponent } from './section/courses-list/courses-list.component';
+import { CoursesListItemComponent } from './section/courses-list/courses-list-item/courses-list-item.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    CoursesComponent,
     BreadcrumbsComponent,
-    SectionComponent,
-    CourseItemComponent
+    SearchComponent,
+    AddCourseComponent,
+    CoursesListComponent,
+    CoursesListItemComponent
   ],
   imports: [
     BrowserModule
